@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowAnimationStyle">@style/ActAnim</item>
+        <item name="android:colorAccent">#EF4444</item>
+        <item name="android:textColorHighlight">#66EF4444</item>
+    </style>
+    <style name="ActAnim" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/a_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/a_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/a_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/a_close_exit</item>
+    </style>
+</resources>
